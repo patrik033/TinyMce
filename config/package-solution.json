@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tiny-mce-client-side-solution",
+    "id": "7f9bcef4-34be-4516-9c1c-84920f3da1a1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TinyMce description"
+      },
+      "longDescription": {
+        "default": "TinyMce description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tiny-mce Feature",
+        "description": "The feature that activates elements of the tiny-mce solution.",
+        "id": "fb71c7e0-c87f-4dcb-a7e9-ecc85ee6ee36",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tiny-mce.sppkg"
+  }
+}

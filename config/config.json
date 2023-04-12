@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tiny-mce-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tinyMce/TinyMceWebPart.js",
+          "manifest": "./src/webparts/tinyMce/TinyMceWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "tinymce": {
+      "path": "https://cdn.tiny.cloud/1/inlggnd56g8rpgi5td3c86c46gyyw3m2770778194h5yyer5/tinymce/5/tinymce.min.js",
+      "globalName": "tinymce"
+    }
+  },
+  "localizedResources": {
+    "TinyMceWebPartStrings": "lib/webparts/tinyMce/loc/{locale}.js"
+  }
+}
